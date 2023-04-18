@@ -1,0 +1,24 @@
+::selection {
+  background: #ec0;
+  color: indigo;
+}
+
+:root {
+  background: darkviolet;
+  background-image: linear-gradient(blueviolet 20%, darkviolet 50%);
+  color: seashell;
+}
+
+:any-link {
+  color: silver;
+  background: #111;
+}
+
+:focus {
+  color: gainsboro;
+  outline: 1ex groove;
+}
+
+p {
+  background-image: conic-gradient(darkviolet 20%, blueviolet 80%);
+}
